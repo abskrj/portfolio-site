@@ -30,6 +30,6 @@ main {
 }
 
 .coming-soon-img {
-  transition: all ease-in 5s;
+  transition: all ease-in 2s;
   opacity: 0;
 }
