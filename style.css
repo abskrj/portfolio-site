@@ -1,0 +1,35 @@
+* {
+  background-color: #000;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  /* height: calc(100vh - 21.5); */
+}
+
+.wtf-img {
+  transition: all ease-in-out 1s;
+}
+
+.coming-soon-img {
+  transition: all ease-in 5s;
+  opacity: 0;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>wait a min, wip!</title>
+  </head>
+  <body>
+    <header>
+      <a href="mailto:hey@abhishek.wtf">hey@abhishek.wtf</a>
+
+      <nav>
+        <a href="https://github.com/abhishekraj272">projects</a>
+        <a
+          href="https://www.linkedin.com/in/abhishekraj272/recent-activity/shares/"
+        >
+          posts
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <img
+        src="https://i.giphy.com/media/XrHc1gDORei1q/giphy.webp"
+        width="300"
+        id="wtf-img"
+      />
+
+      <img
+        src="https://i.giphy.com/media/Y4pAM9NIxOvsvloSiY/giphy.webp"
+        alt="coming soon"
+        width="300"
+        id="coming-soon-img"
+        class="coming-soon-img"
+      />
+    </main>
+  </body>
+  <script>
+    window.onload = function () {
+      const comingSoonImg = document.querySelector("#coming-soon-img");
+      const wtfImg = document.querySelector("#wtf-img");
+
+      setTimeout(() => {
+        comingSoonImg.style.opacity = 1;
+      }, 100);
+
+      setTimeout(() => {
+        wtfImg.src = "https://i.giphy.com/media/3oz8xQQP4ahKiyuxHy/giphy.webp";
+      }, 3000);
+    };
+  </script>
+</html>
