@@ -1,35 +1,72 @@
 * {
   background-color: #000;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 body {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  flex: 0.1;
 }
 
 main {
   margin-top: 40px;
+  max-width: 600px;
+  flex: 0.8;
+}
 
+.recruiters {
+  color: #00f5ff;
+}
+
+.techies {
+  color: #ff97c1;
+}
+
+footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  gap: 20px;
-
-  /* height: calc(100vh - 21.5); */
+  padding: 20px 0;
+  flex: 0.1;
 }
 
-.wtf-img {
-  transition: all ease-in-out 1s;
+.connect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.coming-soon-img {
-  transition: all ease-in 2s;
-  opacity: 0;
+.connect a {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.github {
+  background-color: #171515;
+}
+
+.instagram {
+  background-color: #c13584;
+}
+
+.youtube {
+  background-color: #ff0000;
 }
